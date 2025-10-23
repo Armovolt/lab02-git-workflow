@@ -1,7 +1,26 @@
-Thumbs.db
-*.tmp
-
+# IDE та середовище
 .vscode/
+.idea/
+*.code-workspace
 
-node_modules/
+# Кеші та тимчасові файли
+__pycache__/
+*.pyc
+*.pyo
 *.log
+*.tmp
+*.swp
+
+# Node.js
+node_modules/
+dist/
+.env
+
+# OS файли
+.DS_Store
+Thumbs.db
+
+# Архіви
+*.zip
+*.rar
+*.7z
